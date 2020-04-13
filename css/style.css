@@ -31,20 +31,20 @@ body  {
 }
 
 .navbar ul li a:hover {
-    color:rgb(113,182,178);
+    color:rgb(199,207,211);
 }
 
 .banner {
     margin: auto;
     width: 90%;
     min-width: 380px;
-    background-color: rgb(65,76,78);
+    background-color: rgb(45,58,72);
     padding: 5px 0px 0px 20px;
 }
 
 .banner p:first-child {
     font-family: 'Archivo Black', sans-serif;
-    color: rgb(113,182,178);
+    color: rgb(199,207,211);
     font-size: 3rem;
     vertical-align: middle;
 }
@@ -54,7 +54,7 @@ body  {
     display: inline-block;
     margin-left: 20px;
     padding-left: 10px;
-    color: rgb(113,182,178);
+    color: rgb(199,207,211);
     font-size: 1rem;
 }
 
@@ -70,7 +70,7 @@ body  {
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    color:rgb(113,182,178); 
+    color:rgb(199,207,211); 
   }
   
   .dropdown {
@@ -95,7 +95,9 @@ body  {
     display: block;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
+  .dropdown a:hover {
+    background-color: rgb(45,58,72)
+    }
   
   .show {display: block;}
 
@@ -119,17 +121,26 @@ body  {
 
   .gallery-buttons {
       color: rgb(203,111,40);
-      background-color: rgb(65,76,78);
+      border: none;
+      background-color: #f1f1f1;
       font-size: 1rem;
-      padding: 5px 10px 5px 10px;
+      padding: 5px 20px 5px 20px;
       margin-bottom: 5px;
   }
 
+
   .gallery-buttons:hover {
-    background-color:rgb(113,182,178);
+    background-color:rgb(199,207,211);
   }
        
- 
+ /* about page */
+
+ #about-page p {
+    margin-top: 600px;
+    margin-bottom: 200px;
+    padding: 0px 200px 200px 200px;
+    
+ }
 
   /* media queries */
 
