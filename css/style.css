@@ -12,6 +12,7 @@
 body  {
     font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
+    min-width: 385px;
 }
 
 .navbar ul {
@@ -98,11 +99,46 @@ body  {
   
   .show {display: block;}
 
+  /* slide carousel */
+
+  .mySlides {
+      display:none;
+  }
+
+  .content {
+    margin: 15px auto 15px auto;
+  }
+
+  .arrows-buttons {
+     text-align: center;
+  }
+
+  .thumbs-buttons {
+   text-align: center;
+  }
+
+  .gallery-buttons {
+      color: rgb(203,111,40);
+      background-color: rgb(65,76,78);
+      font-size: 1rem;
+      padding: 5px 10px 5px 10px;
+      margin-bottom: 5px;
+  }
+
+  .gallery-buttons:hover {
+    background-color:rgb(113,182,178);
+  }
+       
+ 
+
   /* media queries */
 
 
   @media (max-width: 768px) {
       .navbar ul {
           margin-top: 20px;
+      }
+      .banner {
+          width: 100%;
       }
   }
